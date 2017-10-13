@@ -1,0 +1,55 @@
+html {
+  font-family: "Fredoka One", sans-serif;
+}
+
+.content {
+  border-top: 8px solid #b3fbff;
+  border-bottom: 8px solid #b3fbff;
+  background-image: repeating-linear-gradient(-33deg, #d4fdff, #d4fdff 10px, #c9fcff 10px, #c9fcff 20px)
+}
+
+.text {
+  max-width: 19em;
+  top: 100px;
+  left: 50px;
+  text-shadow: 1px 1px .1em rgba(0, 0, 0, .5);
+}
+
+h1 {
+  color: #990073;
+}
+
+p {
+  color: #c09;
+}
+
+.btn-ghost {
+  color: #c09;
+  border: 3px solid #990073;
+  border-radius: 2px;
+}
+
+.cherry {
+  top: 300px;
+  left: 500px;
+}
+
+.vanilla-fudge {
+  top: 300px;
+  left: 500px;
+}
+
+.chocolate-chip {
+  top: 300px;
+  left: 500px;
+}
+
+.mint-chip {
+  top: 300px;
+  left: 500px;
+}
+
+.cone {
+  top: 300px;
+  left: 600px;
+}

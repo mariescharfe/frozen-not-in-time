@@ -5,51 +5,110 @@ html {
 .content {
   border-top: 8px solid #b3fbff;
   border-bottom: 8px solid #b3fbff;
-  background-image: repeating-linear-gradient(-33deg, #d4fdff, #d4fdff 10px, #c9fcff 10px, #c9fcff 20px)
+  max-height: 500px;
+  background-image: repeating-linear-gradient(-33deg, #d4fdff, #d4fdff 10px, #c9fcff 10px, #c9fcff 20px);
 }
 
 .text {
-  max-width: 19em;
-  top: 100px;
-  left: 50px;
-  text-shadow: 1px 1px .1em rgba(0, 0, 0, .5);
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, .3);
 }
 
 h1 {
   color: #990073;
+  top: 88px;
+  left: 45px;
+  transform: rotate(-9deg);
 }
 
 p {
   color: #c09;
+  top: 185px;
+  left: 57px;
+  transform: rotate(-5deg);
+  max-width: 19em;
 }
 
 .btn-ghost {
   color: #c09;
   border: 3px solid #990073;
-  border-radius: 2px;
+  top: 322px;
+  left: 57px;
+  border-radius: 5px;
+}
+
+.btn-ghost:hover {
+  color: #c09;
+  border: 3px solid #990073;
+  background: #b3fbff;
 }
 
 .cherry {
-  top: 300px;
-  left: 500px;
+  top: 20px;
+  left: 770px;
+  max-width: 55px;
+  z-index: 4;
 }
 
 .vanilla-fudge {
-  top: 300px;
-  left: 500px;
+  top: 70px;
+  left: 725px;
+  max-width: 140px;
+  z-index: 3;
 }
 
 .chocolate-chip {
-  top: 300px;
-  left: 500px;
+  top: 140px;
+  left: 735px;
+  max-width: 140px;
+  z-index: 2;
 }
 
 .mint-chip {
-  top: 300px;
-  left: 500px;
+  top: 225px;
+  left: 728px;
+  max-width: 140px;
+  z-index: 1;
 }
 
 .cone {
-  top: 300px;
-  left: 600px;
+  top: 315px;
+  left: 735px;
+  max-width: 127px;
+  z-index: 5;
+}
+
+@media only screen and (min-width: 90em) {
+
+  h1 {
+    left: 215px;
+  }
+
+  p {
+    left: 215px;
+  }
+
+  .btn {
+    left: 215px;
+  }
+
+  .cherry {
+    left: 280px;
+  }
+
+  .vanilla-fudge {
+    left: 945px;
+  }
+
+  .chocolate-chip {
+    left: 945px;
+  }
+
+  .mint-chip {
+    left: 948px;
+  }
+
+  .cone {
+    left: 945px;
+  }
+
 }

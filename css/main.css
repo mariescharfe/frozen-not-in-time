@@ -11,6 +11,28 @@ html {
 
 .text {
   text-shadow: 1px 2px 1px rgba(0, 0, 0, .3);
+
+  animation: blur 1s linear 1;
+  transition: all 3s linear 5s;
+}
+
+@keyframes blur {
+
+  0% {
+    filter: blur(0);
+    filter: opacity(0);
+  }
+
+  50% {
+    filter: blur(10px);
+    filter: opacity(25%);
+  }
+
+  100% {
+    filter: blur(0);
+    filter: opacity(100%);
+  }
+
 }
 
 h1 {
@@ -54,6 +76,7 @@ p {
   left: 725px;
   max-width: 140px;
   z-index: 3;
+  animation: forward 1s linear 1 forwards;
 }
 
 .chocolate-chip {
@@ -75,6 +98,18 @@ p {
   left: 735px;
   max-width: 127px;
   z-index: 5;
+}
+
+@keyframes forward {
+
+  0% {
+    transform: translateY(-100px);
+  }
+
+  100% {
+    transform: translateY(70px);
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
